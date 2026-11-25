@@ -1,4 +1,4 @@
-# Nokia Snake - C++, Java, Python and Web
+# Nokia Snake - C++, Java, C#, Python and Web
 
 A classic Nokia-style Snake game built five times in five languages: a Windows console game in C++, desktop games in Java (Swing), C# (Windows Forms) and Python (Tkinter), plus a browser version in HTML, CSS and JavaScript. All five share the same rules, board size and scoring, so you can compare how the same program looks in each language.
 
@@ -6,11 +6,11 @@ A classic Nokia-style Snake game built five times in five languages: a Windows c
 
 | C++ (Console) | Java (Swing) |
 | :---: | :---: |
-| ![C++ version](screenshots/cpp.png) | ![Java version](screenshots/java.png) |
+| ![C++ version](SnakeGame_project/screenshots/cpp.png) | ![Java version](SnakeGame_project/screenshots/java.png) |
 
 | Python (Tkinter) | Web (Browser) |
 | :---: | :---: |
-| ![Python version](screenshots/python.png) | ![Web version](screenshots/web.png) |
+| ![Python version](SnakeGame_project/screenshots/python.png) | ![Web version](SnakeGame_project/screenshots/web.png) |
 
 ## Game Rules
 
