@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Nokia Snake - Web - CLASSIC GAME</title>
+    <link rel="stylesheet" href="Snake.css" />
+  </head>
+  <body>
+    <h2>Nokia Snake - Website</h2>
+    <div id="info">Score: 0 | High: 0 | Level: 1</div>
+
+    <div id="gameWrap">
+      <canvas id="game"></canvas>
+      <div id="startScreen">
+        <div class="big">SNAKE</div>
+        <div class="small">Tap PLAY or press P / SPACE to start</div>
+        <button id="playBtn" onclick="startGame()">PLAY</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button onclick="togglePause()">Pause / Play (P)</button>
+      <button onclick="toggleMute()">Mute (M)</button>
+      <button onclick="restart()">Restart (R)</button>
+    </div>
+
+    <div id="dpad">
+      <div></div>
+      <button onclick="setDir('UP')">▲ UP</button>
+      <div></div>
+      <button onclick="setDir('LEFT')">◀ LEFT</button
+      ><button onclick="setDir('DOWN')">▼ DOWN</button
+      ><button onclick="setDir('RIGHT')">▶ RIGHT</button>
+    </div>
+
+    <p>
+      Click game to Play | P / SPACE = Pause / Play | M = Mute | R = Restart<br />Swipe
+      on the game to move!
+    </p>
+
+    <script src="Snake.js"></script>
+  </body>
+</html>
